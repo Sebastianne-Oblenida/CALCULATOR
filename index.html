@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <section>
+        <div id="display"></div>
+        <div id="buttons">
+            <button data-key="27" class="clear" value="clear">CLEAR</button>
+            <button data-key="8" class="delete" value="delete">DEL</button>
+            <button data-key="103" class="operand" value="7">7</button>
+            <button data-key="104" class="operand" value="8">8</button>
+            <button data-key="105" class="operand" value="9">9</button>
+            <button class="operator" value="nthRoot">&#8730;</button>
+            <button class="operator" value="exponent">x&#8319;</button>
+            <button data-key="100" class="operand" value="4">4</button>
+            <button data-key="101" class="operand" value="5">5</button>
+            <button data-key="102" class="operand" value="6">6</button>
+            <button data-key="111" class="operator" value="divide">&divide;</button>
+            <button data-key="" class="operator" value="mod">mod</button>
+            <div>
+                <button data-key="97" class="operand" value="1">1</button>
+                <button data-key="98" class="operand" value="2">2</button>
+                <button data-key="99" class="operand" value="3">3</button>
+                <button data-key="106" class="operator" value="product">&#10761;</button>
+                <button data-key="96" class="operand" value="0">0</button>
+                <button data-key="110" class="decimal" value=".">.</button>
+                <button data-key="107" class="operator" value="add">+</button>
+                <button data-key="109" class="operator" value="subtract">-</button>
+            </div>
+            <button data-key="13" class="equal" value="equal">=</button>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>
+            Copyright ©
+            <script>
+                document.write(new Date().getFullYear())
+            </script>
+            Boblenida
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
